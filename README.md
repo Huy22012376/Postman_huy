@@ -12,4 +12,9 @@ Sinh viên thực hành gửi phương thức HTTP Request trực tiếp trên m
 - **Phương thức:** `GET`
 - **Mã trạng thái trả về:** `200 OK` (Thành công)
 
-![Kết quả gửi Request GET]![alt text]({7DE4C2C4-1F72-4BF2-AB23-DD040277AAEB}.png)
+![Kết quả gửi Request GET](get.png)
+
+### B. Phương thức POST (Tạo dữ liệu)
+- **URL:** `https://dummyjson.com`
+- **Mã trạng thái:** `201 Created`
+![Kết quả POST](post.png)
