@@ -4,17 +4,24 @@
 - **Họ và tên:** Nguyễn Viết Huy
 - **Mã sinh viên:** 22012376
 
-## 2. Kết quả thực hiện
-Sinh viên thực hành gửi phương thức HTTP Request trực tiếp trên môi trường GitHub Codespaces thông qua Postman Extension.
+## 2. Kết quả thực hiện đầy đủ các phương thức API
 
-### Gửi Request GET thành công
+### A. Phương thức GET (Lấy dữ liệu)
 - **URL thử nghiệm:** `https://google.com`
-- **Phương thức:** `GET`
-- **Mã trạng thái trả về:** `200 OK` (Thành công)
+- **Mã trạng thái trả về:** `200 OK`
+![Kết quả GET](get.png)
 
-![Kết quả gửi Request GET](get.png)
-
-### B. Phương thức POST (Tạo dữ liệu)
-- **URL:** `https://dummyjson.com`
-- **Mã trạng thái:** `201 Created`
+### B. Phương thức POST (Tạo dữ liệu mới)
+- **URL thử nghiệm:** `https://dummyjson.com`
+- **Mã trạng thái trả về:** `201 Created`
 ![Kết quả POST](post.png)
+
+### C. Phương thức PUT (Cập nhật dữ liệu)
+- **URL thử nghiệm:** `https://dummyjson.com`
+- **Mã trạng thái trả về:** `200 OK`
+![Kết quả PUT](put.png)
+
+### D. Phương thức DELETE (Xóa dữ liệu)
+- **URL thử nghiệm:** `https://dummyjson.com`
+- **Mã trạng thái trả về:** `200 OK`
+![Kết quả DELETE](delete.png)
